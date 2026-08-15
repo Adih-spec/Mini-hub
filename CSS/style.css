@@ -1,0 +1,120 @@
+
+
+/* Center the container vertically and horizontally on the viewport */
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the login container card */
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(3, 7, 237, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header style */
+.login-container h2 {
+    margin-bottom: 24px;
+    color: #0a93e8fe;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Individual layout rows for the inputs */
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form element labels */
+.input-group label {
+    margin-bottom: 8px;
+    color: #fffbfb;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Styled text and password input fields */
+.input-group input {
+    padding: 12px 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Interactive focus highlight for inputs */
+.input-group input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* Row alignment for checkbox and forgot password link */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+/* Remember me wrapping label */
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555555;
+    cursor: pointer;
+}
+
+/* Standard styling for anchor tags/links */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #357abd;
+    text-decoration: underline;
+}
+
+/* High-contrast submit button layout */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    margin-bottom: 20px;
+}
+
+.login-btn:hover {
+    background-color: #357abd;
+}
+
+.login-btn:active {
+    transform: scale(0.98);
+}
+
+/* Bottom footer signup link text placement */
+.signup-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
