@@ -30,7 +30,7 @@ body {
 
 /* Individual layout rows for the inputs */
 .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     display: flex;
     flex-direction: column;
 }
