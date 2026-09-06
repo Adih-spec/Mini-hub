@@ -65,6 +65,13 @@
   background-color: #f1f5f9;
 }
 
+.mission{
+    background-color: #0a42da;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     display: flex;
     align-items: center;
